@@ -50,9 +50,11 @@ ul {
     display: flex;
     justify-content: center;;
     list-style: none;
+    flex-direction: column;
 }
 
 li{
+    margin: 0 10px;
     display: flex;
 }
 
