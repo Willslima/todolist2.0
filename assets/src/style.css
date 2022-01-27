@@ -19,7 +19,7 @@
     height: 50px;
 }
 
-#content input {
+.addToDo input {
     height: 30px;
     width: 200px;
     border-radius: 5px;
@@ -47,6 +47,8 @@
 }
 
 ul {
+    display: flex;
+    justify-content: center;;
     list-style: none;
 }
 
@@ -54,6 +56,11 @@ li{
     display: flex;
 }
 
-ul li .checkbox {
-   background-color: #000;
+li input {
+    margin: 0 5px;
+}
+
+.tachado {
+    color: gray;
+    text-decoration: line-through;
 }
